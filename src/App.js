@@ -7,13 +7,14 @@ import {
   Routes,
   useParams,
 } from "react-router-dom";
+import Mainpage from "./page/Mainpage";
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Main />}></Route>
+          <Route path="/" element={<Mainpage />}></Route>
         </Routes>
       </BrowserRouter>
     </>
